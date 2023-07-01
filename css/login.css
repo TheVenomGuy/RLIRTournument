@@ -1,0 +1,94 @@
+.color {
+    color: linen;
+}
+
+.loginform {
+    color: white;
+    border: 4px outset yellow;
+    background-color: rgb(63, 63, 63);
+    width: 75vh;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    transition: ease-in-out 0.5s;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.loginform:hover {
+    transform: scale(1.02);
+    transition: ease-in-out 0.2s;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    /*margin-left: 8%;*/
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .sectiondiv {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inputdiv {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+ hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.nounderline {
+    text-decoration: none !important;
+}
+
+.error {
+    background: wheat;
+    color: tomato;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
